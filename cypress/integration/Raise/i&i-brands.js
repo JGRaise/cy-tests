@@ -297,8 +297,7 @@ describe("This suite will check brands for i&i Client", function() {
     })
 
 
-
-    it("Checking for Aeropostale brand exchange OFFER", () => {
+    it("Checking for Aeropostale brand exchange ACCEPT", () => {
         cy.fixture("API.json")
             .then(apidata => {
                 var CryptoJS = require("crypto-js");
@@ -358,7 +357,7 @@ describe("This suite will check brands for i&i Client", function() {
             })
     })
 
-    it("Checking for 10pin Bowlings brand exchange ACCEPT", () => {
+    it("Checking for 10pin Bowlings brand exchange OFFER", () => {
         cy.fixture("API.json")
             .then(apidata => {
                 var CryptoJS = require("crypto-js");
