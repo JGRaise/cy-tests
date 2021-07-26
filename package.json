@@ -1,0 +1,17 @@
+{
+  "name": "scp",
+  "version": "1.0.0",
+  "description": "scp test project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jg",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^7.5.0"
+  },
+  "dependencies": {
+    "crypto-js": "^4.0.0"
+  }
+}
