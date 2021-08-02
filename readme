@@ -1,0 +1,24 @@
+### This is a short into to the Cypress project
+
+
+Cypress framework is a JavaScript-based end-to-end testing framework built on top of Mocha – a feature-rich JavaScript test framework running on and in the browser, making asynchronous testing simple and convenient. It also uses a BDD/TDD assertion library and a browser to pair with any JavaScript testing framework.
+
+
+Currently we have started with basic API requests for brands API using different clients - i&i and OB.
+
+
+### PREPARATION ###
+
+
+Note: Since node_modules folder has a LOT of files and does not need to be updated at all, it't not included in the repo.
+
+In order to have everything locally you need to:
+
+0. Pull the repo to your device
+1. Have 'npm' on your device
+2. Initialize it in the folder with repo by command > npm init <
+3. Navigate to the repo's folder
+4. Install Cypress with command > install cypress --save-dev <
+5. It's possible to run Cypress now in two ways:
+- headless with > ./node_modules/.bin/cypress run <
+- with browser preview with > ./node_modules/.bin/cypress open <
